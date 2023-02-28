@@ -1,7 +1,7 @@
 ## Description
 
 This repository is a template for a Typescript project. This template is already configured with:
- - Nodemon
+ - ESbuild
  - Jest
  - Typescript
  - Eslint
@@ -14,9 +14,14 @@ npm install
 
 ## Run Application
 
+#### Run
+```sh
+npm run start
+```
+
 #### Run dev mode
 ```sh
-npm run dev
+npm run start:dev
 ```
 
 #### Build for production
@@ -28,12 +33,12 @@ npm run build
 
 #### Run unit tests
 ```sh
-npm run unit-test
+npm run test:unit
 ```
 
 #### Run integration tests
 ```sh
-npm run integration-test
+npm run test:integration
 ```
 
 #### Run all tests
